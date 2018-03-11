@@ -1,35 +1,12 @@
-body{
-    background-image: url(../img/bg.jpg);
+html{
+    background-image: url(../img/bg.png)
 }
 
-.topbar-center-logo {
-    background: #2c3840;
-  }
 
-  .topbar-center-logo .menu {
-    background: #2c3840;
-  }
+.v-hr{
 
-  .topbar-center-logo .menu a {
-    color: #fefefe;
-  }
-
-  .topbar-center-logo .top-bar-center {
-    -webkit-flex: 1 0 auto;
-        -ms-flex: 1 0 auto;
-            flex: 1 0 auto;
-  }
-
-  @media screen and (max-width: 39.9375em) {
-    .topbar-center-logo .top-bar-center {
-      display: none;
-    }
-  }
-
-  .topbar-center-logo-mobile {
-    background: #2c3840;
-  }
-
-  .topbar-center-logo-mobile .menu-icon {
-    vertical-align: text-top;
-  }
+    border: none;
+    border-left: 1px solid hsla(200, 10%, 50%,100);
+    height: 100vh;
+    width: 1px;
+}
