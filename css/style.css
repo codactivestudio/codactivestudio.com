@@ -2,7 +2,7 @@ html{
     background-image: url(../img/bg.jpg) !important;
 }
 
-.home{
+.home , .about{
     height: 100vh;
 }
 .vr-hr{
