@@ -1,36 +1,41 @@
-html{
+html {
     background-image: url(../img/bg.jpg) !important;
 }
 
-.home , .about{
+.home,
+.about,
+.projects {
     height: 100vh;
 }
-.vr-hr{
+
+.vr-hr {
     height: 30%;
     width: 100%;
 }
-.vr-hr hr{
+
+.vr-hr hr {
     border: none;
-    border-left: 1px solid hsla(200, 10%, 50%,100);
+    border-left: 1px solid hsla(200, 10%, 50%, 100);
     height: 100%;
     width: 1px;
     margin: auto;
 }
 
 .home .content hr {
-    border-top: 1px solid hsla(200, 10%, 50%,100);
+    border-top: 1px solid hsla(200, 10%, 50%, 100);
 }
 
-.logo{
+.logo {
     color: #363636;
     display: block;
     text-align: center;
     letter-spacing: 1rem;
 }
 
-.alpha{
+.alpha {
     padding-right: 10.5rem;
 }
-.beta{
+
+.beta {
     padding-left: 9rem;
 }
