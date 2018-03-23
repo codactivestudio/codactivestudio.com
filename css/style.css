@@ -3,9 +3,12 @@ html {
 }
 
 .home,
-.about,
-.projects {
+.about {
     height: 100vh;
+}
+
+.projects {
+    height: 50vh;
 }
 
 .vr-hr {
