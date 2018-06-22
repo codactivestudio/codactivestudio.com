@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Bourbon';
+    src: url('fonts/BourbonGrotesque-Regular.otf') format('opentype');
+}
+
 html {
     background-image: url(../img/bg.jpg) !important;
 }
