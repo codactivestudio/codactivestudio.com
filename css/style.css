@@ -35,6 +35,7 @@ html {
     display: block;
     text-align: center;
     letter-spacing: 1rem;
+    user-select: none;
 }
 
 .alpha {
