@@ -1,42 +1,84 @@
-    html {
-        background-image: url(../img/bg.jpg) !important;
-    }
-    
-    .home,
-    .about,
-    .projects,
-    .team {
-        height: 100vh;
-    }
-    
+@font-face {
+    font-family: 'Bourbon';
+    src: url('fonts/BourbonGrotesque-Regular.otf') format('opentype');
+}
+
+html {
+    background-image: url(../img/bg.jpg) !important;
+}
+
+.landing,
+.about,
+.projects,
+.team {
+    height: 100vh;
+}
+
+.vr-hr {
+    height: 150px;
+}
+
+.vr-hr hr {
+    border-left: 1px solid hsla(200, 10%, 50%, 100);
+    height: 100%;
+    width: 1px;
+    margin: auto;
+}
+
+.landing .card {
+    margin-top: -10px;
+}
+
+.landing .content hr {
+    border-top: 1px solid hsla(200, 10%, 50%, 100);
+    height: 1px;
+    width: 100%;
+}
+
+.content h1 {
+    margin: 0 175px;
+}
+
+.logo {
+    color: #363636;
+    display: block;
+    text-align: center;
+    letter-spacing: 16px;
+    font-size: 42px;
+    user-select: none;
+}
+
+.alpha {
+    padding-right: 160px;
+}
+
+.beta {
+    padding-left: 140px;
+}
+
+@media (max-width: 800px) {
     .vr-hr {
-        height: 30%;
-        width: 100%;
+        height: 70px;
     }
-    
-    .vr-hr hr {
-        border: none;
-        border-left: 1px solid hsla(200, 10%, 50%, 100);
-        height: 100%;
-        width: 1px;
-        margin: auto;
+
+    .landing .content hr {
+        margin: 10px 0;
     }
-    
-    .home .content hr {
-        border-top: 1px solid hsla(200, 10%, 50%, 100);
+
+    .content h1 {
+        margin: 0 10px;
     }
-    
+
     .logo {
-        color: #363636;
-        display: block;
-        text-align: center;
-        letter-spacing: 1rem;
+        font-size: 22px;
+        letter-spacing: 8px;
     }
-    
+
     .alpha {
-        padding-right: 10.5rem;
+        padding-right: 83px;
     }
-    
+
     .beta {
-        padding-left: 9rem;
+        padding-left: 73px;
     }
+}
