@@ -43,14 +43,15 @@ html {
     color: #363636;
     display: block;
     text-align: center;
-    letter-spacing: 1rem;
+    letter-spacing: 16px;
+    font-size: 42px;
     user-select: none;
 }
 
 .alpha {
-    padding-right: 10.1rem;
+    padding-right: 160px;
 }
 
 .beta {
-    padding-left: 8.9rem;
+    padding-left: 140px;
 }
