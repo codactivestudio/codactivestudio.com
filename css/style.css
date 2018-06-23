@@ -55,3 +55,30 @@ html {
 .beta {
     padding-left: 140px;
 }
+
+@media (max-width: 800px) {
+    .vr-hr {
+        height: 70px;
+    }
+
+    .landing .content hr {
+        margin: 10px 0;
+    }
+
+    .content h1 {
+        margin: 0 10px;
+    }
+
+    .logo {
+        font-size: 22px;
+        letter-spacing: 8px;
+    }
+
+    .alpha {
+        padding-right: 83px;
+    }
+
+    .beta {
+        padding-left: 73px;
+    }
+}
