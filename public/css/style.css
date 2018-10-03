@@ -1,5 +1,5 @@
 html {
-    background-image: url('../img/bg.jpg') !important;
+    background-image: url('/img/background.jpg') !important;
 }
 
 .landing {
